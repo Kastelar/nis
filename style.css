@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+p
+{
+    font-weight: 300;
+    color: #111;
+}
+.amigos
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(toman.jpg);
+    background-size: cover;
+}
+.amigos .content
+{
+    max-width: 900px;
+    text-align: center;
+}
+.amigos .content h3
+{
+    font-size: 5em;
+    color: rgb(11, 11, 11);
+}
+.amigos .content p
+{
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+}
+.bah
+{
+    font-size: 1em;
+    color: #fff;
+    background: #ff0157;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5;
+}
+.bah:hover
+{
+    letter-spacing: 6px;
+}
+section 
+{
+    padding: 100px;
+    background-color: rgb(87, 218, 228);
+}
+.uou
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.uou .awa
+{
+    position: relative;
+    width: 48%;
+}
+.ab 
+{
+    color: rgb(248, 100, 100);
+    font-size: 3em;
+    font-weight: 300;
+}
+.ab span
+{
+    color: #ff0157;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.ab .awa .imgb
+{
+    position: relative;
+    width: 100%;
+    min-height: 300px;
+   
+}
+.ab .awa .img img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.amigosfoda
+{  
+  background: rgb(112, 178, 207);
+  text-align: justify;
+  font-style: normal;
+}
+.amigosfoda .content
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.amigosfoda .content .caixa
+{
+    width: 250px;
+    margin: 50px;
+}
+.amigosfoda .content .caixa .imgb 
+{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.amigosfoda .content .caixa .imgb img
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.amigosfoda .content .caixa .fofao
+{
+    padding: 15px 0 5px;
+}
+.amigosfoda .titulo
+{
+    font-weight: 400;
+    color: rgb(36, 34, 34);
+}
+.amigosfoda span
+{
+    color: #ff0157;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.amigas 
+{
+    background-color: rgb(234, 149, 242);
+    text-align: justify;
+}
+.amigas .content1
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 45px;
+}
+.amigas .content1 .caixa
+{
+    width: 250px;
+    margin: 50px;
+}
+.amigas .content1 .caixa .imgb 
+{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.amigas .content1 .caixa .imgb img
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.amigas .content1 .caixa .fofao
+{
+    padding: 15px 0 5px;
+}
+.amigas .titulo
+{
+    font-weight: 400;
+    color: rgb(36, 34, 34);
+}
+.amigas span
+{
+    color: #ff0157;
+    font-weight: 700;
+    font-size: 1.5em;
+}
